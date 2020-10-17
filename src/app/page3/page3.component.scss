@@ -1,0 +1,16 @@
+.inner .yokonarabi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+div{
+    width:calc(100% / 3);/* 3等分 */
+    text-align:center;
+    padding:5px;/* 必要に応じて */
+    img{
+        max-width:100%;
+        height:auto;
+        } 
+    }
+}
+

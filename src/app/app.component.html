@@ -1,15 +1,15 @@
-<div>
+<div class="container">
   <span>{{ title }} Hello World!
-  
-  </span>
+  </span> 
+  <div class="flex-box">
+    <a routerLink="./Page1">Box AI</a>
+    <a routerLink="./Page2">初期条件</a>
+    <a routerLink="./Page3">サンプル選択</a>
+    <a routerLink="./Page4">寸法</a>
+    <a routerLink="./Page5">照査</a>
+    <a routerLink="./Page6">印刷</a>
+  </div>
+  <router-outlet></router-outlet>
 </div>
-<nav>
-  <a routerLink="./Page1">Box AI</a>
-  <a routerLink="./Page2">初期条件</a>
-  <a routerLink="./Page3">サンプル選択</a>
-  <a routerLink="./Page4">寸法</a>
-  <a routerLink="./Page5">照査</a>
-  <a routerLink="./Page6">印刷</a>
-</nav>
 
-<router-outlet></router-outlet>
+
